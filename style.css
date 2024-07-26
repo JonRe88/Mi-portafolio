@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav a {
+    padding: 0.5em 1em;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.main-nav a:hover {
+    background-color: #f0f0f0;
+}
+.contact-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.contact-button:hover {
+    background-color: #0056b3;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero-buttons a {
+    margin-right: 20px;
+}
+.hero-image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.section-title {
+    text-align: left;
+    margin: 10px 50px;
+}
+.portfolio {
+    width: 80%;
+    margin:auto;
+    overflow:scroll;
+    position:relative;
+    max-width: 80%;
+    overflow-x: ::-webkit-scrollbar;
+    overflow-y::-webkit-scrollbar;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    transition: transform 0.5s ;
+}
+.portfolio-item {
+    min-width: calc(80% / 2);
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.portfolio-item img {
+    width: calc(100% / 1);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(24, 11, 11);
+}
+
+    .footer {
+    background-color: #a9c2cf3b;
+    color: rgb(35, 25, 143);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-image {
+    max-width: 70px; /* Ajusta según el tamaño que necesites */
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+
